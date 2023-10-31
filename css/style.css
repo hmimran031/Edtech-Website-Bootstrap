@@ -1,0 +1,37 @@
+/* Google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  padding-top: 5rem;
+}
+.navbar.fixed-top {
+  z-index: 1000;
+}
+.carousel-inner .carousel-item img {
+  height: 90vh;
+  width: 100%;
+}
+.carousel-captions {
+  padding-bottom: 12rem;
+}
+
+.popular-course img {
+  width: 12.5rem;
+  height: 12.5rem;
+}
+.popular-course .card {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.bonus-2 .bg-info {
+  width: 81rem;
+  height: 18.75rem;
+  margin: auto;
+}
+.bonus-2 .bonus-2_content {
+  width: 85%;
+  margin: auto;
+}
+.frequently img {
+  width: 7.5rem;
+  height: 2.0625rem;
+}
