@@ -3,14 +3,20 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/*----------------------
+ Place Slider Here Start
+ -----------------------*/
 .carousel-inner .carousel-item img {
-  height: 90vh;
+  height: 85vh;
   width: 100%;
 }
 .carousel-captions {
   padding-bottom: 12rem;
 }
 
+/*----------------------
+ Place Bonus-2 Here Start
+ ------------------------*/
 .bonus-2 .bg-info {
   width: 81rem;
   height: 18.75rem;
@@ -20,7 +26,264 @@ body {
   width: 85%;
   margin: auto;
 }
+.bonus-2 .bonus-2_content p {
+  width: 67%;
+}
+
+/*-------------------------
+ Place Frequently Here Start
+ ---------------------------*/
 .frequently img {
   width: 7.5rem;
   height: 2.0625rem;
+}
+
+/*----------------------------------------------------------------------------------------------------
+           ****************************** Place Media Queries Here Start ******************************
+          -------------------------------------------------------------------------------------------------------*/
+
+/*-----*****-----
+   Mobile Device  
+ -----*****-----*/
+@media screen and (max-width: 576px) {
+  /* Slide-Start  */
+  .slide .carousel-captions {
+    padding-bottom: 12rem;
+  }
+  .carousel-captions h1 {
+    font-size: 1.5rem !important;
+    width: 85% !important;
+  }
+  .slide .carousel-captions p {
+    width: 100% !important;
+  }
+  /* Popular-Course-Start  */
+  .popular-course {
+    margin-top: 1rem !important;
+  }
+  .popular-course .course-content {
+    width: 100% !important;
+    margin: 1.5rem 0 !important;
+  }
+  .popular-course .course-content h1 {
+    font-size: 1.125rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .popular-course .course-content p {
+    text-align: center;
+    width: 100% !important;
+    margin: auto !important;
+  }
+  .popular-course .d-flex img {
+    width: 100% !important;
+  }
+  .popular-course .card-body h5 {
+    margin-top: 1rem;
+    font-size: 1rem !important;
+  }
+  .popular-course .text-center {
+    margin-top: 2rem !important;
+  }
+  /* Bonus-1 Start */
+  .bonus-1 .card-body {
+    padding-left: 1.6rem !important;
+  }
+  .bonus-1 .card-body h5 {
+    font-size: 1.25rem !important;
+    width: 80% !important;
+  }
+  .bonus-1 .d-flex {
+    flex-wrap: wrap !important;
+  }
+  .bonus-1 img {
+    width: 22.8rem !important;
+    height: 22.8rem !important;
+  }
+  /* Bonus-2 Start */
+  .bonus-2 .bonus-2_content {
+    text-align: center;
+    flex-direction: column !important;
+  }
+  .bonus-2 .bonus-2_content h5 {
+    font-size: 1.125rem !important;
+  }
+  .bonus-2 .bonus-2_content p {
+    width: 100% !important;
+    margin: 1rem 0 !important;
+  }
+  /* Our-Students Start */
+  .our-students .student-heading {
+    text-align: center;
+    margin-bottom: 0rem !important;
+  }
+  .our-students .student-heading h2 {
+    color: #1d1d1d;
+    font-size: 1.25rem !important;
+    width: 60% !important;
+    margin: auto !important;
+  }
+  .our-students .student-heading p {
+    width: 100% !important;
+    margin: auto !important;
+    margin-top: 1rem !important;
+  }
+  .our-students .row {
+    margin-bottom: 0rem !important;
+  }
+  .our-students .card {
+    margin-bottom: 1.3rem !important;
+  }
+  .our-students .card-body {
+    text-align: center;
+    margin: 1rem 0 !important;
+  }
+  .our-students .text-center {
+    margin-top: 1rem !important;
+  }
+  /* Feedback Start */
+  .feedback {
+    display: none;
+  }
+  /* Frequently Start */
+  .frequently .course-contents {
+    width: 100% !important;
+  }
+  .frequently .course-content {
+    width: 80% !important;
+    margin-bottom: 1rem !important;
+  }
+  .frequently .course-content h1 {
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+  }
+  .frequently .course-content p {
+    width: 87% !important;
+    margin: auto !important;
+  }
+  .frequently .accordions {
+    margin-top: 2rem !important;
+  }
+  /* Companies Start */
+  .companies {
+    display: none;
+  }
+}
+
+/*-----*****-----
+  Tablets Devices
+ -----*****-----*/
+@media screen and (max-width: 768px) {
+  /* Slider Start  */
+  .carousel-captions {
+    padding-bottom: 18rem;
+  }
+  .slide .carousel-captions h1 {
+    font-size: 2.5rem !important;
+    width: 80% !important;
+  }
+  /* Popular-Course-Start  */
+  .popular-course .course-content h1 {
+    font-size: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .popular-course .course-content p {
+    width: 85% !important;
+    margin: auto !important;
+  }
+
+  /* .popular-course .course-content {
+    width: 85% !important;
+  } */
+  .popular-course .text-center {
+    margin-top: 2rem !important;
+  }
+  /* Bonus-1 Start */
+  .bonus-1 .card-body h5 {
+    width: 80% !important;
+  }
+  .bonus-1 img {
+    width: 20.875rem !important;
+    height: 40.8rem !important;
+  }
+  .bonus-1 .d-flex {
+    flex-wrap: wrap !important;
+  }
+  /* Bonus-2 Start */
+  .bonus-2 .bonus-2_content {
+    text-align: center;
+    flex-direction: column !important;
+  }
+  .bonus-2 .bonus-2_content h5 {
+    font-size: 1.125rem !important;
+  }
+  .bonus-2 .bonus-2_content p {
+    width: 100% !important;
+    margin: 1rem 0 !important;
+  }
+  /* Our-Students Start */
+  .our-students .student-heading h2 {
+    font-size: 1.875rem !important;
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 1rem !important;
+  }
+  .our-students .student-heading p {
+    font-size: 1rem !important;
+    width: 65% !important;
+  }
+  .our-students .row {
+    margin-bottom: 0rem !important;
+  }
+  .our-students .students {
+    margin-top: 1.5rem !important;
+  }
+  .our-students .card {
+    margin-bottom: 1.3rem !important;
+  }
+  .our-students .card-body {
+    text-align: center;
+    margin: 1rem 0 !important;
+  }
+  .our-students .text-center {
+    margin-top: 1rem !important;
+  }
+  /* Feedback Start */
+  .feedback .course-content {
+    width: 100% !important;
+    margin-bottom: 0rem !important;
+  }
+  .feedback .course-content h1 {
+    font-size: 1.875rem !important;
+  }
+  .feedback .card {
+    margin-top: 1.5rem !important;
+  }
+  .feedback .row {
+    margin-top: 1rem !important;
+  }
+  /* Frequently Start */
+  .frequently .course-contents {
+    width: 100% !important;
+  }
+  .frequently .course-content {
+    width: 80% !important;
+    margin-bottom: 1rem !important;
+  }
+  .frequently .course-content h1 {
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+  }
+  .frequently .course-content p {
+    width: 100% !important;
+    margin: auto !important;
+  }
+  .frequently .accordions {
+    margin-top: 2rem !important;
+  }
+  /* Companies Start */
+  .companies {
+    display: none;
+  }
 }
