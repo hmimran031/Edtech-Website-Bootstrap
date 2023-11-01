@@ -11,13 +11,6 @@ body {
   padding-bottom: 12rem;
 }
 
-.popular-course img {
-  width: 12.5rem;
-  height: 12.5rem;
-}
-.popular-course .card {
-  border-radius: 0 0.5rem 0.5rem 0;
-}
 .bonus-2 .bg-info {
   width: 81rem;
   height: 18.75rem;
